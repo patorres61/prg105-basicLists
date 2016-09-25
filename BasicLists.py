@@ -22,7 +22,7 @@ while savecar != "done":
 cars.sort()
 
 print ('\nHere is your list of cars:')
-# print list out line by line
+# print list out line by line in title case
 for auto in cars:
     print(auto.title())
 print ('\n')
